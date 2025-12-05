@@ -1,0 +1,15 @@
+Note: Express Js the running environment of Node JS
+
+1. Open terminal type: npm init and then press enter
+2. Then type package name in small letters without space like: express-js
+3. Press enter
+4. Write description
+5. Entry point is (index.js), press enter
+6. Press enter again and again 6 times
+7. type: yes
+8. Then go to the Express.js official website copy code: npm install express --save 
+9. Paste in terminal and press enter
+10. Write code in index.js file
+11. In terminal install nodemon for better result that helps in automatic execution
+12. Now type fileName: node or nodemon index.js 
+13. Now go to the browser type: localhost: ....port number
