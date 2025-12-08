@@ -13,3 +13,4 @@ Note: Express Js the running environment of Node JS
 11. In terminal install nodemon for better result that helps in automatic execution
 12. Now type fileName: node or nodemon index.js 
 13. Now go to the browser type: localhost: ....port number
+14. use file name index.js only, because in package.json main is index.js
