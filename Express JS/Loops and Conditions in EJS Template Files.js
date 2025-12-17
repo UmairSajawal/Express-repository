@@ -17,10 +17,13 @@ app.get('/', (req, resp) => {
 
 app.get('/users', (req, resp) => {
     const users = ["Umair", "Sajawal", "Shahaan", "Ayan", "Zain", "Ihtasham"];
-    resp.render('users', {users: users});
+    resp.render('users', {users: users, isLogin: true });
 })
 
-app.listen(4700);
+app.listen(4800);
+
+
+
 
 
 // views/users.ejs file content:
@@ -39,6 +42,10 @@ app.listen(4700);
         <li><%= users[i] %></li>
         <% } %>
     </ul>
+
+    <% if(isLogin) { %>
+        <h2>Welcome, You are logged in!</h2>
+    <% } %>
 </body>
 </html>
 */
